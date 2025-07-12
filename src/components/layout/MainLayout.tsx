@@ -7,7 +7,7 @@ interface MainLayoutProps {
 
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex h-screen bg-[var(--bg-white)] dark:bg-[var(--bg-dark)]">
       {/* Sidebar */}
       <Sidebar />
 

@@ -8,7 +8,7 @@
   /* Your custom color palette - simple and easy to remember */
   --primary: #0056A1;      /* Blue - main brand color */
   --primary-light: #1d4ed8; /* lighter blue - for hover effects */
-  --inner-sidebar-text: #99CCFF;
+  --inner-sidebar: #99CCFF;
   --secondary: #F0F7FF;  
   --icon-color: #F1F5F9;
   --success: #7CCF00;      /* Green - success messages */
@@ -18,6 +18,7 @@
   /* Background variations */
   --bg-light: #F5F8FF;     /* Very light gray - page backgrounds */
   --bg-dark: #1e293b;      /* Dark gray - dark backgrounds */
+  --bg-white: #ffffff;     /* White - page backgrounds */
 
   /* Text colors */
   --text-primary: #013366;   /* Dark text */

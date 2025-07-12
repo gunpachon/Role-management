@@ -21,7 +21,7 @@ export default function LoginPage() {
       // Save token to localStorage
       localStorage.setItem("token", response.data.token);
       localStorage.setItem("refresh_token", response.data.refresh_token);
-      router.push("/dashboard");
+      router.push("/user");
     } catch (error) {
       setError("Invalid email or password");
       console.error("Login failed:", error);
