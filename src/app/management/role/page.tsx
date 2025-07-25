@@ -1,10 +1,12 @@
 import MainLayout from '@/components/layout/MainLayout';
+import Breadcrumb from '@/components/ui/breadcrumb';
 
-export default function HomePage() {
+
+export default function RoleManagementPage() {
   return (
     <MainLayout>
-      <h1 className="text-2xl font-bold">Welcome to the Role Management Page!</h1>
-      <p>This is a test to see if the layout works.</p>
+      <h1 className="Montserrat text-[var(--text-primary-dark)] text-2xl font-bold">Role Management</h1>
+      <Breadcrumb className="mt-2" items={[{ label: 'Management', href: '/management' }, { label: 'Role Management' }]} />
     </MainLayout>
   );
 }
